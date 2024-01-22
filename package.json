@@ -6,7 +6,6 @@
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
-    "@im33357/uniswap-v2-sdk": "3.0.7",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
@@ -79,7 +78,8 @@
     "start-server-and-test": "^1.11.0",
     "styled-components": "^4.2.0",
     "typescript": "^3.8.3",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "@godbleason/uniswap-v2-sdk": "1.0.1"
   },
   "resolutions": {
     "@walletconnect/web3-provider": "1.1.1-alpha.0"

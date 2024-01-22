@@ -1635,6 +1635,19 @@
     "@ethersproject/properties" "^5.0.0"
     "@ethersproject/strings" "^5.0.0"
 
+"@godbleason/uniswap-v2-sdk@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@godbleason/uniswap-v2-sdk/-/uniswap-v2-sdk-1.0.1.tgz#996456cfd3a6ff83c02338f6dc2be675781f245f"
+  integrity sha512-KuXB+PA3fxEZ956evJYWuxfEzeQa797Mgk1A5aIYJTQ9NVK8HUA/F2GTcrvG5zRaOpRoYvsUTo3XhWaIuBOwbw==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1706,19 +1719,6 @@
   integrity sha512-tFJlT47db0kMqVm3H4nQYgn6Pwg10GTZHb1pwmSiv1K4ks6drQOtfEF5ZnPjkvC+y4/bUPHK+bc87QvLcL+WMw==
   dependencies:
     "@hapi/hoek" "^9.0.0"
-
-"@im33357/uniswap-v2-sdk@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/@im33357/uniswap-v2-sdk/-/uniswap-v2-sdk-3.0.7.tgz#4c3f1d54464eb7325f24887b21be7e326814998c"
-  integrity sha512-o5abZp6Xt3rNkPgU8ngCXvboPQGAXoh69GKyaz1AxummwQNHoLcWURbwW74hHNyDgRu0re2MvqpVNYFebuhVNw==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
