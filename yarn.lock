@@ -1635,10 +1635,10 @@
     "@ethersproject/properties" "^5.0.0"
     "@ethersproject/strings" "^5.0.0"
 
-"@godbleason/uniswap-v2-sdk@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@godbleason/uniswap-v2-sdk/-/uniswap-v2-sdk-1.0.1.tgz#996456cfd3a6ff83c02338f6dc2be675781f245f"
-  integrity sha512-KuXB+PA3fxEZ956evJYWuxfEzeQa797Mgk1A5aIYJTQ9NVK8HUA/F2GTcrvG5zRaOpRoYvsUTo3XhWaIuBOwbw==
+"@godbleason/uniswap-v2-sdk-frax@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@godbleason/uniswap-v2-sdk-frax/-/uniswap-v2-sdk-frax-1.0.3.tgz#00f33b044608fe0d0d31e719dd6db86f47445dae"
+  integrity sha512-Ywei1dvubeXBTE5BdxRx4WjYUMp8EZQotAiLJ8HpCQJvB1/2GJ9qNfZrd94DUoL6gga5sRpXRNPYDrayWPjA0A==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

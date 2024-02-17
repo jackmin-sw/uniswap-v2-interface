@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Token, TokenAmount } from '@godbleason/uniswap-v2-sdk'
+import { Token, TokenAmount } from '@godbleason/uniswap-v2-sdk-frax'
 import { useTokenContract } from '../hooks/useContract'
 import { useSingleCallResult } from '../state/multicall/hooks'
 

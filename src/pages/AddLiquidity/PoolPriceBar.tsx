@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@godbleason/uniswap-v2-sdk'
+import { Currency, Percent, Price } from '@godbleason/uniswap-v2-sdk-frax'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

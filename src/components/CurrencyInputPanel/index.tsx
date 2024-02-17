@@ -1,4 +1,4 @@
-import { Pair,Currency } from '@godbleason/uniswap-v2-sdk'
+import { Pair,Currency } from '@godbleason/uniswap-v2-sdk-frax'
 import React, { useState, useContext, useCallback } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import { darken } from 'polished'

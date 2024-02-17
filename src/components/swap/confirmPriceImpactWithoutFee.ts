@@ -1,4 +1,4 @@
-import { Percent } from '@godbleason/uniswap-v2-sdk'
+import { Percent } from '@godbleason/uniswap-v2-sdk-frax'
 import { ALLOWED_PRICE_IMPACT_HIGH, PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN } from '../../constants'
 
 /**

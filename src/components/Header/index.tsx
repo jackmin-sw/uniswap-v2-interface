@@ -1,4 +1,4 @@
-import { ChainId } from '@godbleason/uniswap-v2-sdk'
+import { ChainId } from '@godbleason/uniswap-v2-sdk-frax'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
@@ -132,7 +132,8 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.MUMBAI]: 'Mumbai'
+  [ChainId.MUMBAI]: 'Mumbai',
+  [ChainId.HOLESKY]: 'Holesky',
 }
 
 export default function Header() {

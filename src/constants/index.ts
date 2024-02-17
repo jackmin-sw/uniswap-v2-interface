@@ -1,10 +1,10 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@godbleason/uniswap-v2-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@godbleason/uniswap-v2-sdk-frax'
 import { AbstractConnector } from '@web3-react/abstract-connector'
-// import { DeploymentInfo } from '@godbleason/uniswap-v2-sdk'
+// import { DeploymentInfo } from '@godbleason/uniswap-v2-sdk-frax'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = "0x2f68Cf3008b9a9fEb573d66f46C5704aD3459d06"
+export const ROUTER_ADDRESS = "0x2c973ff6E860D7A25C663C55758FA952a45b0423"
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -25,6 +25,7 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
   [ChainId.MUMBAI]: [WETH[ChainId.MUMBAI]],
+  [ChainId.HOLESKY]: [WETH[ChainId.HOLESKY]],
 }
 
 // used to construct intermediary pairs for trading

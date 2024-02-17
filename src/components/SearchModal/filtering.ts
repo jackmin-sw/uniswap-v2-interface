@@ -1,5 +1,5 @@
 import { isAddress } from '../../utils'
-import { Token } from '@godbleason/uniswap-v2-sdk'
+import { Token } from '@godbleason/uniswap-v2-sdk-frax'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {
   if (search.length === 0) return tokens

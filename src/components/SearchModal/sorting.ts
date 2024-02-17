@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@godbleason/uniswap-v2-sdk'
+import { Token, TokenAmount } from '@godbleason/uniswap-v2-sdk-frax'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

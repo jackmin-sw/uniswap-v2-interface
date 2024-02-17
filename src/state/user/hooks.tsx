@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from '@godbleason/uniswap-v2-sdk'
+import { ChainId, Pair, Token } from '@godbleason/uniswap-v2-sdk-frax'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'

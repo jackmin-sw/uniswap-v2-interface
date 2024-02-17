@@ -1,4 +1,4 @@
-import { Percent } from '@godbleason/uniswap-v2-sdk'
+import { Percent } from '@godbleason/uniswap-v2-sdk-frax'
 import React from 'react'
 import { ONE_BIPS } from '../../constants'
 import { warningSeverity } from '../../utils/prices'

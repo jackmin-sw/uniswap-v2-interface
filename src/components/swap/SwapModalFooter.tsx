@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@godbleason/uniswap-v2-sdk'
+import { Trade, TradeType } from '@godbleason/uniswap-v2-sdk-frax'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

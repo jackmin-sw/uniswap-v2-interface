@@ -14,7 +14,7 @@ import {
   Trade,
   TradeType,
   WETH
-} from '@godbleason/uniswap-v2-sdk'
+} from '@godbleason/uniswap-v2-sdk-frax'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../hooks'
 import { useAllTokens } from '../hooks/Tokens'
