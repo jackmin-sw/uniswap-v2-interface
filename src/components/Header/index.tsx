@@ -1,5 +1,4 @@
 import { ChainId } from '@godbleason/uniswap-v2-sdk-frax'
-import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
 
@@ -14,8 +13,8 @@ import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
 
 import { YellowCard } from '../Card'
-import Settings from '../Settings'
 import Menu from '../Menu'
+import Settings from '../Settings'
 
 import Row, { RowBetween } from '../Row'
 import Web3Status from '../Web3Status'
@@ -146,6 +145,7 @@ export default function Header() {
     <HeaderFrame>
       <RowBetween style={{ alignItems: 'flex-start' }} padding="1rem 1rem 0 1rem">
         <HeaderElement>
+          <meta name="google-site-verification" content="Fsr3jNMXK_PE9VRAtFFGVdI6Ngj62Ht4S3YWG-TpBxE" />
           <Title href=".">
             <UniIcon>
               <img src={isDark ? LogoDark : Logo} alt="logo" />
